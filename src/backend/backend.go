@@ -139,9 +139,9 @@ func (a *App) newOrder(w http.ResponseWriter, r *http.Request){
 			respondWithError(w, http.StatusInternalServerError, err.Error())
 			return
 		}
-
-		respondWithJSON(w, http.StatusOK, o)
 	}
+	
+	respondWithJSON(w, http.StatusOK, o)
 }
 
 // curl -X POST localhost:9003/orderitems -H "Content-Type: application/json" -d "[{\"order_id\": 4, \"product_id\": 2, \"quantity\": 1}, {\"order_id\": 4, \"product_id\": 7, \"quantity\": 3}]"
