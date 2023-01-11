@@ -4,3 +4,5 @@ Source files from the course: [Practice It: Go REST API Server](https://www.link
 ## Deployment Diagram
 ![Deployment_Diagram](https://github.com/rcgc/GoInventoryAPI/blob/master/images/DeploymentDiagram.png)
 <p><b>Figure 1. </b>Deployment Diagram</p><br>
+
+# References
