@@ -1,1 +1,2 @@
 # GoInventoryAPI
+Source files from the course: [Practice It: Go REST API Server](https://www.linkedin.com/learning/practice-it-go-rest-api-server) taught by [Martine Moses](https://www.linkedin.com/learning/instructors/martine-moses?u=76737724).
